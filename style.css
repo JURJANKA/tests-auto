@@ -1,0 +1,129 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+
+body{
+background: #26ff000e;
+}
+
+.app{
+background: #cfcdcd4b;
+width: 90%;
+max-width: 600px;
+margin-left: auto;
+margin-right: 850px;
+border-radius: 10px;
+padding: 30px;
+margin-top: 20px;
+
+}
+
+h1{
+text-align: center;
+font-weight: 25px;
+font-weight: 600;
+border-bottom: 1px solid #333;
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: rgb(14, 75, 9);
+color: rgb(197, 255, 171);
+}
+
+.question{
+align-items: right;
+}
+
+
+.quiz{
+padding: 20px 0;
+}
+.quiz h2{
+font-size: 18px;
+color: rgb(0, 0, 0);
+font-weight: 600px;
+}
+.btn{
+background: #fff;
+color: #222;
+font-weight: 500;
+width: 100%;
+border: 1px solid #222;
+padding: 10px;
+margin: 10px 0;
+text-align: left;
+border-radius: 4px;
+cursor: pointer;
+transition: all 00.3s;
+}
+.btn:hover:not(:disabled){
+    background-color: #838383;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+
+}
+#next-btn{
+    background: #ff0000a9;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto ;
+    border: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+#question-image {
+    max-width: 700px;    
+    width: 700px;        
+    height: auto;
+    position: absolute;
+    top: 240px;
+    left: 850px;      
+    display: none;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+.pareizi { background-color: #4CAF50 !important; color: white; }
+.nepareizi { background-color: #f44336 !important; color: white; }
+
+.start-btn {
+    background: #4CAF50;
+    color: #fff;
+    font-size: 2em;           
+    font-weight: bold;
+    padding: 25px 70px;       
+    border: none;
+    border-radius: 12px;
+    margin: 60px auto 0 auto; 
+    cursor: pointer;
+    box-shadow: 0 2px 16px #aaa;
+    transition: background 0.2s;
+    display: block;           
+    text-align: center;
+}
+.start-btn:hover {
+    background: #388e3c;
+}
+
+
+.timer {
+    font-size: 50px;
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.timer-container{
+    text-align:center; 
+    margin-top:10px;
+}

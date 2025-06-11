@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Autovadītāja tests</title>
+</head>
+<body>
+<h1>Īss autovadītāja tests</h1>
+
+<!-- Laiks un taimeris virs pogas Sākt testu -->
+<div class="timer-container">
+    <h3>Laiks</h3>
+    <span id="timer" class="timer">10:00</span>
+</div>
+
+<!-- Sākt testu poga -->
+<button id="start-btn" class="start-btn">Sākt testu</button>
+
+
+<img id="question-image" src="image/" alt="Attēls">
+
+<div class="app" style="display:none;">
+  <div class="quiz">
+    <h2 id="question">1.Jautājums</h2>
+    <div id="answer-buttons">             
+      <button class="btn">Atbilde 1</button>
+      <button class="btn">Atbilde 2</button>
+      <button class="btn">Atbilde 3</button>
+    </div>
+    <button id="next-btn">Nākamais</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
